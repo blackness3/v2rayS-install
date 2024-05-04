@@ -1,7 +1,7 @@
 version: '3'
 services: 
   v2rayS: 
-    image: ghcr.io/thank243/v2rays:master
+    image: heaid/v2rays:0.4.1
     volumes:
       - ./config:/etc/v2rayS/
     restart: always
